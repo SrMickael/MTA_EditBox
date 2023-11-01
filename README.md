@@ -25,10 +25,9 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
   - `fieldType`: Escolha entre "text" para texto normal ou "password" para ocultar o texto.
 
 
-- Para manipular eventos, use os métodos disponíveis:
-  - `addEventHandler(eventName, handlerFunction)`: Adicione manipuladores de eventos para responder a ações do usuário, como cliques do mouse e teclas pressionadas.
+- Para desabilitar os eventos, use os métodos disponíveis:
   - `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
-  ```lua
+  - ```lua
   editBox:destroy()
   ```
 
