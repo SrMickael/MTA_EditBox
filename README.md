@@ -37,10 +37,15 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
 editBox:draw(255)
 ```
 
+- Para recuperar o texto digitado na caixa de edição personalizada, você pode acessar a propriedade `text` da caixa de edição. Aqui está um exemplo de como fazer isso em Lua:
+  ```lua
+  -- Para obter o texto digitado na caixa de edição, acesse a propriedade "text"
+  local textoDigitado = editBox.text
 
-- Manipule eventos, como cliques do mouse e entradas de teclado, com os métodos específicos fornecidos na função `createEditBox`.
+  -- Agora, a variável "textoDigitado" contém o texto que foi digitado na caixa de edição
+  print("Texto digitado: " .. textoDigitado)
+  ```
 
-- Integre a caixa de edição personalizada em seu projeto Lua e utilize-a para criar interfaces de usuário interativas.
 
 ## Exemplo de Uso
 
@@ -52,6 +57,9 @@ local editBox = createEditBox(100, 100, 200, 30, "Digite aqui", 10, "default", {
 addEventHandler("onClientRender", root, function()
     editBox:draw(255)
 end)
+
+-- Para obter o texto digitado na caixa de edição, acesse a propriedade "text"
+local textoDigitado = editBox.text
 ```
 
 
