@@ -28,6 +28,9 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
 - Para manipular eventos, use os métodos disponíveis:
   - `addEventHandler(eventName, handlerFunction)`: Adicione manipuladores de eventos para responder a ações do usuário, como cliques do mouse e teclas pressionadas.
   - `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
+  ```lua
+  editBox:destroy()
+  ```
 
 - Use o método `draw` para desenhar a caixa de edição na tela. É possível especificar um nível de transparência opcional:
   - `alpha`: Controle a transparência da caixa de edição.
