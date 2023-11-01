@@ -23,13 +23,14 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
   - `font`: Escolha a fonte e o tamanho do texto.
   - `colors`: Defina cores para o texto, borda e seleção.
   - `fieldType`: Escolha entre "text" para texto normal ou "password" para ocultar o texto.
-  - `alpha`: Controle a transparência da caixa de edição.
+
 
 - Para manipular eventos, use os métodos disponíveis:
   - `addEventHandler(eventName, handlerFunction)`: Adicione manipuladores de eventos para responder a ações do usuário, como cliques do mouse e teclas pressionadas.
   - `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
 
 - Use o método `draw` para desenhar a caixa de edição na tela. É possível especificar um nível de transparência opcional:
+  - `alpha`: Controle a transparência da caixa de edição.
 ```lua
 editBox:draw(255)
 ```
