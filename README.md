@@ -11,7 +11,7 @@ Para criar uma caixa de edição personalizada, siga estas etapas:
 2. Chame a função `createEditBox` e forneça os parâmetros necessários:
 
 ```lua
-local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors, fieldType, alpha)
+local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors, fieldType)
 ```
 
 
