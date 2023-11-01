@@ -16,19 +16,19 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
 
 
 - Personalize os parâmetros de acordo com suas necessidades:
-  - `x` e `y`: Defina as coordenadas (x, y) da caixa de edição.
-  - `width` e `height`: Especifique a largura e altura da caixa de edição.
-  - `text`: Configure o texto inicial da caixa de edição.
-  - `maxLength`: Limite a quantidade máxima de texto que pode ser inserida.
-  - `font`: Escolha a fonte e o tamanho do texto.
-  - `colors`: Defina cores para o texto, borda e seleção.
-  - `fieldType`: Escolha entre "text" para texto normal ou "password" para ocultar o texto.
+  1- `x` e `y`: Defina as coordenadas (x, y) da caixa de edição.
+  2- `width` e `height`: Especifique a largura e altura da caixa de edição.
+  3- `text`: Configure o texto inicial da caixa de edição.
+  4- `maxLength`: Limite a quantidade máxima de texto que pode ser inserida.
+  5- `font`: Escolha a fonte e o tamanho do texto.
+  6- `colors`: Defina cores para o texto, borda e seleção.
+  7- `fieldType`: Escolha entre "text" para texto normal ou "password" para ocultar o texto.
 
 
 - Para desabilitar os eventos, use os métodos disponíveis:
-  - `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
-  - ```lua
-  editBox:destroy()
+  1- `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
+  ```lua
+    editBox:destroy()
   ```
 
 - Use o método `draw` para desenhar a caixa de edição na tela. É possível especificar um nível de transparência opcional:
