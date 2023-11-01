@@ -27,15 +27,15 @@ local editBox = createEditBox(x, y, width, height, text, maxLength, font, colors
 
 - Para desabilitar os eventos, use os métodos disponíveis:
   - `destroy()`: Remova todos os manipuladores de eventos quando a caixa de edição não for mais necessária.
-  ```lua
-    editBox:destroy()
-  ```
+   ```lua
+     editBox:destroy()
+   ```
 
 - Use o método `draw` para desenhar a caixa de edição na tela. É possível especificar um nível de transparência opcional:
   - `alpha`: Controle a transparência da caixa de edição.
-```lua
-editBox:draw(255)
-```
+   ```lua
+   editBox:draw(255)
+   ```
 
 - Para recuperar o texto digitado na caixa de edição personalizada, você pode acessar a propriedade `text` da caixa de edição. Aqui está um exemplo de como fazer isso em Lua:
   ```lua
