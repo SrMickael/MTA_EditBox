@@ -70,7 +70,7 @@ Sinta-se à vontade para contribuir com melhorias ou correções para esta funç
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE). Você é livre para usar, modificar e distribuir este código de acordo com os termos da licença.
+Este projeto é licenciado sob a [Licença MIT](LICENSE.md). Você é livre para usar, modificar e distribuir este código de acordo com os termos da licença.
 
 ## Autor
 
