@@ -1,6 +1,6 @@
 # createEditBox - Função de Caixa de Edição Personalizada em Lua
 
-A função `createEditBox` é uma ferramenta poderosa para criar caixas de edição personalizadas em Lua, com funcionalidades de inserção de texto, seleção, desenho na tela e manipulação de eventos. Essa função é especialmente útil para criar interfaces de usuário interativas em jogos ou aplicativos.
+A função `createEditBox` é uma ferramenta poderosa para criar caixas de edição personalizadas em Lua, com funcionalidades de inserção de texto, seleção, desenho na tela e manipulação de eventos. Essa função é especialmente útil para criar interfaces de usuário.
 
 ## Como Usar
 
