@@ -21,8 +21,8 @@ function createEditBox(x, y, width, height, text, maxLength, font, colors, field
     }
     
     function editBox:addEventHandler(eventName, handlerFunction)
-        local eventHandler = addEventHandler(eventName, root, handlerFunction)
-        table.insert(self.eventHandlers, {eventName, root, eventHandler})
+        addEventHandler(eventName, root, handlerFunction)
+        table.insert(self.eventHandlers, {eventName, root, handlerFunction})
     end
 
     function editBox:destroy()
